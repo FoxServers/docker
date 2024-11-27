@@ -10,7 +10,7 @@ services:
       - ${SERVER_PORT}1:${SERVER_PORT}1
     environment:
       # Eula, must be True
-      EULA: "TRUE"
+      EULA: ${EULA:?error}
       
       # Generic Server Settings
       TYPE: ${SERVER_TYPE:?error}
