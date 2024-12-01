@@ -80,7 +80,7 @@ services:
       EXEC_DIRECTLY: "false"
 
     volumes:
-      - /srv/foxservers/${SERVER_NAME}:/data
+      - ${CUSTOM_SAVE_PATH:-~}/${SERVER_NAME}:/data
 
 volumes: 
   data:
