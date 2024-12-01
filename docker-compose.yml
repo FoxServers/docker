@@ -80,7 +80,7 @@ services:
       EXEC_DIRECTLY: "false"
 
     volumes:
-      - ${CUSTOM_SAVE_PATH:-~/}:/data
+      - ${CUSTOM_SAVE_PATH:-./}:/data
 
 volumes: 
   data:
