@@ -47,7 +47,7 @@ services:
       USE_AIKAR_FLAGS: "true"
       LOG_TIMESTAMP: "true"
       SNOOPER_ENABLED: "false"
-      SPAWN_PROTECTION: "SPAWN_PROTECTION:-0"
+      SPAWN_PROTECTION: "{SPAWN_PROTECTION:-0}"
       TZ: "${TIMEZONE:-America/New_York}"
       STOP_SERVER_ANNOUNCE_DELAY: 10
       DEBUG: "false"
